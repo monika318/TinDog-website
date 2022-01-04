@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3{
+  font-family: 'Montserrat';
+}
+p{
+  color:#8f8f8f;
+}
+/* heading section */
+.big-heading{
+  font-size: 3.5rem;
+  font-weight:900;
+  line-height: 1.5;
+}
+.section-heading{
+  font-weight: 600;
+  line-height: 3rem;
+  font-size:3rem;
+}
+
+#title{
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem 0 ;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:'Montserrat';
+}
+
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title img */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%;
+  z-index: 1;
+}
+/* features section */
+.icon-col{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.icon-col:hover{
+  color:#ff4c68;
+}
+#features{
+  padding:9% 14%;
+  position: relative;
+  z-index:2;
+}
+.content{
+  padding: 0 5%;
+}
+.features-h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.features-content{
+  color:#8f8f8f;
+}
+
+/* testimonials section */
+#testimonials{
+  background-color:#ef8172;
+}
+.testimonials-text{
+  font-weight: 600;
+  line-height: 3rem;
+  font-size:3rem;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.carousel-item{
+  padding:7% 14%;
+}
+/* press section */
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3rem;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+}
+.price-text{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  padding: 5% 25% 5%;
+}
+
+.cta-h3{
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+/* footer section */
+#footer{
+  margin:6rem 5rem;
+}
+.fab{
+  margin:5px 15px 20px;
+}
+/* media query */
+@media (max-width:1050px){
+.title-img{
+  position: static;
+  transform: rotate(0);
+}
+#title{
+  text-align: center;
+}
+}
